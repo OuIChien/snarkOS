@@ -4,7 +4,7 @@ version = "3.0.0"
 authors = [ "The Aleo Team <hello@aleo.org>" ]
 description = "A REST API server for a decentralized virtual machine"
 homepage = "https://aleo.org"
-repository = "https://github.com/AleoNet/snarkOS"
+repository = "https://github.com/OuIChien/snarkOS"
 keywords = [
   "aleo",
   "cryptography",
@@ -66,9 +66,10 @@ version = "=3.0.0"
 
 [dependencies.snarkvm-synthesizer]
 #path = "../../../snarkVM/synthesizer"
-#git = "https://github.com/AleoNet/snarkVM.git"
+git = "https://github.com/OuIChien/snarkVM.git"
+branch = "OuIChien/dev"
 #rev = "3d42aa0"
-version = "=1.0.0"
+#version = "=1.0.0"
 default-features = false
 optional = true
 
@@ -80,6 +81,8 @@ version = "1"
 optional = true
 
 [dependencies.snarkvm]
+git = "https://github.com/OuIChien/snarkVM.git"
+branch = "OuIChien/dev"
 workspace = true
 
 [dependencies.time]
