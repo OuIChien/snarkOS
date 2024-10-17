@@ -68,7 +68,9 @@ version = "=3.0.0"
 #path = "../../../snarkVM/synthesizer"
 #git = "https://github.com/AleoNet/snarkVM.git"
 #rev = "3d42aa0"
-version = "=1.0.0"
+#version = "=1.0.0"
+git = "https://github.com/OuIChien/snarkVM.git"
+branch = "OuIChien/main"
 default-features = false
 optional = true
 
